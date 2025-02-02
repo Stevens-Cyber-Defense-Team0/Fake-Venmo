@@ -1,0 +1,1521 @@
+:root {
+    --venmo-background-color: #FFF;
+    --venmo-custom-active-state-color: #005DB2;
+    --venmo-custom-affirmative-highlight-color: #F3F8F8;
+    --venmo-custom-heart-color: #E51769;
+    --venmo-custom-story-green-color: #0E7F6C;
+    --venmo-custom-story-yellow-color: #FFDD9F;
+    --venmo-disabled-color: ##8D8D8F;
+    --venmo-primary-main-color: #0074DE;
+    --venmo-success-main-color: #0E7F6C;
+    --venmo-success-light-color: #F3F9F8;
+    --venmo-error-main-color: #C72830;
+    --venmo-error-light-color: #FCF4F5;
+    --venmo-info-main-color: #028CFF;
+    --venmo-grey-100-color: #EDEDED;
+    --venmo-grey-200-color: #888C94;
+    --venmo-grey-300-color: #6B6E76;
+    --venmo-grey-400-color: #55585E;
+    --venmo-grey-500-color: #2F3033;
+    --venmo-text-primary-color: #2F3033;
+    --venmo-text-contrast-color: #fff;
+    --venmo-warning-main-color: #F5A623;
+}
+
+.layout_leftContainer__oiJzq {
+    height: 100%;
+    border-right: 1px solid #ccc;
+    width: 317px;
+    min-width: 317px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.css-n2n0ek {
+    position: fixed;
+    inset: 0px auto 0px 0px;
+    z-index: 1199;
+}
+
+.layout_leftInnerContainer__mXbdm {
+    padding-top: 1.7rem;
+    padding-right: 16px;
+    padding-left: 40px;
+    padding-bottom: 1.7rem;
+}
+
+.layout_logoOverBlue__nqPiC {
+    display: block;
+    margin: -27px -16px -27px -40px;
+    padding: 27px 16px 27px 40px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+a {
+    color: #0074de;
+    font-family: "Scto Grotesk A Bold";
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.profileSection_container__kWGlu {
+    display: flex
+;
+    margin: 0 32px 32px 0;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.balanceTransfer_container__hyhR_ {
+    display: flex
+;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.vLogoButton_button___A1UZ {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 12px 48px;
+    background-color: #0074de;
+    border-radius: 24px;
+}
+
+.createBusinessProfile_container__9VsjW {
+    display: flex
+;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.nav_ccContainer__xQ7BC {
+    display: flex
+;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+ul.navigation_menu__rUvtU {
+    outline: none;
+    margin-left: -8px;
+}
+.css-1ontqvh {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+ul.navigation_menu__rUvtU a {
+    display: block;
+}
+a.navigation_navLink___c_SR {
+    position: relative;
+}
+
+.vLogoButton_icon__ENaUB {
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.vLogoButton_button___A1UZ span {
+    color: #fff;
+}
+
+.layout_logoOverBlue__nqPiC::before {
+    border-radius: 100%;
+    position: absolute;
+    background: #0074de;
+    right: -180px;
+    left: -180px;
+    top: -180px;
+    content: "";
+    bottom: 0;
+    z-index: -1;
+}
+
+.layout_logo__JeTsS {
+    height: 1.56rem;
+    color: #008cff;
+}
+
+body {
+    font-family: "Scto Grotesk A";
+    margin: 0 auto;
+}
+body {
+    font-size: 1.125rem;
+    line-height: 1.33;
+    letter-spacing: normal;
+}
+
+.profileSection_titleAndSwitcherContainer__QxZ4A {
+    display: flex
+;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 0;
+}
+
+.profileSection_titleAndSwitcherContainer__QxZ4A .profileSection_titleContainer__rpR4q .profileSection_profileUsername__YuXzG {
+    color: #55585e;
+}
+
+.profileSection_titleAndSwitcherContainer__QxZ4A .profileSection_titleContainer__rpR4q>button {
+    font-family: "Scto Grotesk A";
+    font-size: 16px;
+    padding: 0;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.balanceTransfer_container__hyhR_ .balanceTransfer_balance__SuGaU {
+    font-size: 32px;
+    font-family: "Scto Grotesk A Bold";
+}
+.css-1paswwl {
+    margin: 0;
+    font-family: Scto Grotesk A;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25;
+    letter-spacing: 0.00938em;
+}
+
+.balanceTransfer_container__hyhR_ .balanceTransfer_transferButton__8UgFj {
+    font-size: 14px;
+}
+
+.css-aec0xc {
+    margin: 0;
+    font-family: Scto Grotesk A;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25;
+    letter-spacing: 0.00938em;
+    text-align: center;
+}
+
+.createBusinessProfile_container__9VsjW>a {
+    font-size: 16px;
+    font-family: "Scto Grotesk A Medium";
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.nav_ccContainer__xQ7BC .nav_title__1CP4t {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.nav_ccContainer__xQ7BC .nav_subtitle__0hw3e {
+    font-size: .875rem;
+    margin: 0;
+    color: #55585e;
+}
+
+.nav_ccContainer__xQ7BC .nav_link__13ckn {
+    font-family: "Scto Grotesk A Bold";
+    font-size: .875rem;
+    height: 1rem;
+    margin-bottom: auto;
+}
+
+@media (min-width: 960px) {
+    .layout_payOrRequestButton__4xwuL[class^=vLogoButton] {
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 1260px) {
+    .layout_payOrRequestButton__4xwuL[class^=vLogoButton] {
+        padding: 12px;
+    }
+}
+@media (max-width: 1560px) {
+    .layout_payOrRequestButton__4xwuL[class^=vLogoButton] {
+        padding: 12px 24px;
+    }
+}
+
+.layout_payOrRequestButton__4xwuL[class^=vLogoButton] {
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.layout_rightContainer__R036c {
+    display: flex
+;
+    flex-direction: column;
+    width: 100%;
+}
+
+.layout_rightContainer__R036c.layout_rightContainerTopMargin__clkoE {
+    padding-top: 3.26rem;
+}
+
+html, body, #__next {
+    height: 100%;
+}
+
+.layout_siteContainer__ASl4v {
+    height: 100vh;
+    width: 100%;
+    display: grid
+;
+    grid-template-columns: 1fr;
+}
+
+.layout_siteBody__HLXUM {
+    display: flex
+;
+    flex-direction: column;
+}
+.layout_siteContent__blfnd {
+    display: flex
+;
+    overflow-y: hidden;
+    flex-grow: 1;
+}
+.layout_rightInnerContent__NE5kq.layout_rightContainerLeftRightMargin__aX2DF {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.layout_rightInnerContent__NE5kq {
+    flex: 1 0 auto;
+    position: relative;
+}
+
+.layout_footer__CI9P8 {
+    border-top: 1px solid #ccc;
+    flex-shrink: 0;
+}
+
+.layout_menuIconContainer__JxiF_ {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    background-color: initial;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    margin-top: .3rem;
+    z-index: 1;
+}
+
+.layout_wrapper___amDM.layout_maxWidth__omDBF {
+    max-width: 60rem;
+}
+.layout_wrapper___amDM {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.homepage_tabContainer__hGBDz {
+    margin-left: auto;
+    margin-right: auto;
+}
+.css-1pt6kop {
+    overflow: hidden;
+    min-height: 48px;
+    -webkit-overflow-scrolling: touch;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+;
+    border: 0.5px solid #55585E;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 32px;
+    min-height: 32px;
+}
+
+.css-1anid1y {
+    position: relative;
+    display: inline-block;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    white-space: nowrap;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.css-k008qs {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+;
+}
+
+.css-1pt6kop .MuiTabs-indicator {
+    background: none;
+}
+.css-1tpqmc2 {
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    width: 100%;
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #0074DE;
+}
+
+.css-8k6awp {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: Scto Grotesk A Bold;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    letter-spacing: 0.02857em;
+    text-transform: none;
+    max-width: 360px;
+    min-width: 90px;
+    position: relative;
+    min-height: 48px;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 12px 16px;
+    overflow: hidden;
+    white-space: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    min-width: 80px;
+    min-height: 32px;
+    border-radius: 32px;
+    padding: 6px 12px;
+}
+
+.css-h5fkc8 {
+    margin-top: 32px;
+}
+
+.css-k008qs {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+;
+}
+
+.css-17fsw3c {
+    position: relative;
+    display: flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-family: "Scto Grotesk A", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    user-select: none;
+    font-size: 14px;
+    width: 48px;
+    height: 48px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+    padding: unset;
+    box-sizing: border-box;
+    border: 1px solid rgb(136, 140, 148);
+    flex: 0 1 auto;
+}
+
+.css-on40yh {
+    flex: 1 1 0%;
+    margin-left: 8px;
+}
+
+.css-1mcxgge {
+    font-size: 1rem;
+    font-family: "Scto Grotesk A Medium";
+    font-weight: 500;
+    line-height: 1.25;
+    color: rgb(47, 48, 51);
+}
+
+.headline_storyHeadline__3kO3m {
+    text-decoration: none;
+    color: inherit;
+}
+
+.css-rc1xcx {
+    font-size: 0.875rem;
+    font-family: "Scto Grotesk A";
+    line-height: 1.43;
+    color: rgb(85, 88, 94);
+    margin-top: 4px;
+}
+
+.css-18biwo {
+    display: inline-flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.css-1isemmb {
+    margin-left: 8px;
+}
+
+.css-aiy1mv {
+    font-size: 1rem;
+    font-family: "Scto Grotesk A Medium";
+    font-weight: 500;
+    line-height: 1.25;
+    color: rgb(47, 48, 51);
+    margin-top: 8px;
+    word-break: break-word;
+}
+
+.css-1d6pfgg.Mui-disabled {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.css-1d6pfgg.Mui-disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.css-s26irt {
+    display: inline-flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-align: center;
+    font-size: 1.125rem;
+    color: rgb(136, 140, 148);
+    outline: 0px;
+    margin: 0px 0px 0px 16px;
+    text-decoration: none;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    overflow: visible;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+}
+
+.css-gcpk2k {
+    display: inline-flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-align: center;
+    font-size: 1.125rem;
+    color: rgb(136, 140, 148);
+    outline: 0px;
+    margin: 0px;
+    text-decoration: none;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    overflow: visible;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+}
+
+.css-1d6pfgg {
+    display: inline-flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 1.75rem;
+    outline: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px;
+    text-decoration: none;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    overflow: visible;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0px;
+}
+
+.footer_footerContainer__cTnKg {
+    padding: 24px 40px;
+}
+
+.layout_footer__CI9P8 {
+    border-top: 1px solid #ccc;
+    flex-shrink: 0;
+}
+
+.footer_footerContainer__cTnKg .footer_linksContainer__rZ5Sj {
+    flex-direction: row;
+    display: flex
+;
+    justify-content: flex-start;
+}
+
+.footer_footerContainer__cTnKg .footer_linkContainer__9vOzv {
+    font-family: "Scto Grotesk A Bold";
+    margin-right: 56px;
+}
+
+.footer_footerContainer__cTnKg a {
+    font-size: 12px;
+}
+
+.footer_footerContainer__cTnKg .footer_disclaimer__k5DOn {
+    padding-top: 16px;
+    color: #6b6e76;
+}
+
+.footer_footerContainer__cTnKg .footer_disclaimer__k5DOn>a {
+    font-family: "Scto Grotesk A Bold";
+}
+
+.vLogoButton_button___A1UZ 
+{
+    cursor: pointer;
+}
+
+.layout_wrapper___amDM.layout_maxWidth__omDBF {
+    max-width: 60rem;
+}
+.layout_wrapper___amDM {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.pay_amount__z1CWR {
+    margin-top: 32px;
+}
+.css-xi606m {
+    text-align: center;
+}
+
+.css-1do6czc {
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+.css-12yfdt9 {
+    margin: 0;
+    font-family: Scto Grotesk A;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25;
+    letter-spacing: 0.00938em;
+    font-size: 1.5rem;
+    font-family: Athletics Medium;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+.css-1q38lc7 {
+    font-family: Scto Grotesk A;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    color: #2F3033;
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.css-1q38lc7 .MuiInputBase-input {
+    font-size: 3.25rem;
+    font-family: Athletics Medium;
+    width: inherit;
+    height: 1.2em;
+    padding: 0;
+    font-weight: 500;
+    font-style: normal;
+}
+.css-mnn31 {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 100%;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+}
+
+.css-tq6xpi {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 50%;
+    overflow: visible;
+    color: rgba(0, 0, 0, 0.54);
+    -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    margin-top: 16px;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    vertical-align: top;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.css-1b36cy4 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    background-color: #888C94;
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+    border-radius: 50%;
+}
+.css-147b8u5 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: top;
+    width: 100%;
+}
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+
+.css-147b8u5 .MuiFormLabel-root.MuiInputLabel-root {
+    letter-spacing: normal;
+    line-height: 1;
+    -webkit-transform: translate(12px, 10px) scale(0.75);
+    -moz-transform: translate(12px, 10px) scale(0.75);
+    -ms-transform: translate(12px, 10px) scale(0.75);
+    transform: translate(12px, 10px) scale(0.75);
+}
+
+.css-147b8u5 .MuiFormLabel-root {
+    border-width: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+.css-x0o1yl {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Scto Grotesk A;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    padding: 0;
+    position: relative;
+    display: block;
+    transform-origin: top left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(133% - 24px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transform: translate(12px, 7px) scale(0.75);
+    -moz-transform: translate(12px, 7px) scale(0.75);
+    -ms-transform: translate(12px, 7px) scale(0.75);
+    transform: translate(12px, 7px) scale(0.75);
+    -webkit-transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, -webkit-transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    z-index: 1;
+    pointer-events: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+.css-147b8u5 .MuiFormLabel-root.MuiInputLabel-root {
+    letter-spacing: normal;
+    line-height: 1;
+    -webkit-transform: translate(12px, 10px) scale(0.75);
+    -moz-transform: translate(12px, 10px) scale(0.75);
+    -ms-transform: translate(12px, 10px) scale(0.75);
+    transform: translate(12px, 10px) scale(0.75);
+}
+.css-147b8u5 .MuiFormLabel-root {
+    border-width: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+.css-x0o1yl {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Scto Grotesk A;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    padding: 0;
+    position: relative;
+    display: block;
+    transform-origin: top left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(133% - 24px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transform: translate(12px, 7px) scale(0.75);
+    -moz-transform: translate(12px, 7px) scale(0.75);
+    -ms-transform: translate(12px, 7px) scale(0.75);
+    transform: translate(12px, 7px) scale(0.75);
+    -webkit-transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, -webkit-transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    z-index: 1;
+    pointer-events: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.MuiAutocomplete-hasPopupIcon.css-18col2x .MuiFilledInput-root, .MuiAutocomplete-hasClearIcon.css-18col2x .MuiFilledInput-root {
+    padding-right: 39px;
+}
+.MuiAutocomplete-hasPopupIcon.css-18col2x .MuiAutocomplete-inputRoot, .MuiAutocomplete-hasClearIcon.css-18col2x .MuiAutocomplete-inputRoot {
+    padding-right: 30px;
+}
+.css-147b8u5 .MuiInputBase-root {
+    line-height: 1.1876em;
+    border: 0.5px solid;
+    padding-right: 0;
+    border-color: #888C94;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+    letter-spacing: normal;
+    -webkit-transition: border-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: border-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.css-18col2x .MuiAutocomplete-inputRoot {
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.css-18col2x .MuiFilledInput-root {
+    padding-top: 19px;
+    padding-left: 8px;
+}
+.payOrRquestAutocomplete_autoComplete__nrTa5 {
+    padding-top: 8px !important;
+    padding-bottom: 8px;
+    padding-right: 8px !important;
+}
+.css-1nf9t5f {
+    font-family: Scto Grotesk A;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    color: #2F3033;
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.06);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-transition: background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    transition: background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    padding-left: 12px;
+}
+
+.payOrRquestAutocomplete_toLabel__tHH65 {
+    color: #888c94;
+    font-family: "Scto Grotesk A";
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+.css-147b8u5 .MuiInputBase-input:not(.MuiSelect-select) {
+    height: 1.1876em;
+}
+.css-18col2x .MuiFilledInput-root .MuiFilledInput-input {
+    padding: 7px 4px;
+}
+.css-18col2x .MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+    width: 0;
+    min-width: 30px;
+}
+.css-147b8u5 .MuiFilledInput-input {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.css-147b8u5 .MuiInputBase-input {
+    padding: 27px 0px 10px 12px;
+}
+.css-18col2x .MuiAutocomplete-input {
+    opacity: 1;
+}
+.css-18col2x .MuiAutocomplete-input {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-overflow: ellipsis;
+    opacity: 0;
+}
+.css-1j6omf3 {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 100%;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+    padding-top: 25px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 0;
+}
+
+.pay_note__KHCGO {
+    margin-top: 16px;
+}
+
+.css-1fzd482 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: top;
+    width: 100%;
+}
+
+.css-1ye4dt2 {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Scto Grotesk A;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    padding: 0;
+    position: relative;
+    display: block;
+    transform-origin: top left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 24px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transform: translate(12px, 16px) scale(1);
+    -moz-transform: translate(12px, 16px) scale(1);
+    -ms-transform: translate(12px, 16px) scale(1);
+    transform: translate(12px, 16px) scale(1);
+    -webkit-transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, -webkit-transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.css-1fzd482 .MuiFilledInput-root {
+    border: 0.5px solid;
+    border-color: #6B6E76;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+    -webkit-transition: border-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: border-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.css-ve7pq8 {
+    font-family: Scto Grotesk A;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    color: #2F3033;
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 4px 0 5px;
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.06);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-transition: background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    transition: background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    padding-right: 12px;
+    padding: 25px 12px 8px;
+}
+
+.css-1fzd482 .MuiFilledInput-root:before {
+    border-bottom: 0;
+    left: -1px;
+    bottom: -1px;
+}
+.css-ve7pq8::before {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    left: 0;
+    bottom: 0;
+    content: "\00a0";
+    position: absolute;
+    right: 0;
+    -webkit-transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    pointer-events: none;
+}
+
+.css-1fzd482 .MuiFilledInput-root .MuiFilledInput-input {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.css-qm8ja9 {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 0;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    height: auto;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 100%;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+    resize: none;
+    padding-top: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.css-1fzd482 .MuiFilledInput-root:after {
+    border-bottom: 0;
+}
+.css-ve7pq8::after {
+    border-bottom: 2px solid #0074DE;
+    left: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    right: 0;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: -webkit-transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    pointer-events: none;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.pay_privacySection__sVShW {
+    margin-top: 8px;
+    display: flex
+;
+    min-height: 40px;
+    align-items: center;
+}
+
+.pay_privacySection__sVShW .pay_privacyPicker__4T7qt {
+    padding: 0;
+}
+.css-h5c8w9 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 50%;
+    overflow: visible;
+    color: rgba(0, 0, 0, 0.54);
+    -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    padding: 12px;
+    font-size: 1.75rem;
+    padding: 0;
+}
+
+.pay_privacySection__sVShW>p {
+    color: #2f3033;
+    font-size: 14px;
+    line-height: 1.25rem;
+    margin: 0 0 0 16px;
+}
+
+.css-h5c8w9 svg {
+    color: #0074DE;
+}
+.css-o4w2b2 {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+    height: 20px;
+    width: 20px;
+}
+
+.css-6zfdfh {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.00714em;
+    font-weight: 500;
+    font-family: "Scto Grotesk A", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #0074DE;
+    margin-left: 8px;
+}
+
+.pay_payRequestButton__6ao19 {
+    margin-top: 32px;
+    display: flex
+;
+}
+
+.pay_payRequestButton__6ao19 button {
+    flex-basis: 100%;
+}
+.css-1bowmhr {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: Scto Grotesk A Bold;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: none;
+    min-width: 64px;
+    padding: 8px 22px;
+    border-radius: 4px;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff;
+    background-color: #0074DE;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    box-shadow: none;
+    border-radius: 2em;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 10px 16px;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    padding: 12px 24px;
+    line-height: 1.25;
+    width: 100%;
+    font-size: 18px;
+    background-color: #0074DE;
+    color: #fff;
+}
+
+.pay_payRequestButton__6ao19 button+button {
+    margin-left: 8px;
+}
+.pay_payRequestButton__6ao19 button {
+    flex-basis: 100%;
+}
+.css-1bowmhr {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: Scto Grotesk A Bold;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: none;
+    min-width: 64px;
+    padding: 8px 22px;
+    border-radius: 4px;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff;
+    background-color: #0074DE;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    box-shadow: none;
+    border-radius: 2em;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 10px 16px;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    padding: 12px 24px;
+    line-height: 1.25;
+    width: 100%;
+    font-size: 18px;
+    background-color: #0074DE;
+    color: #fff;
+}
+
+.css-1ye4dt2 {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Scto Grotesk A;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    padding: 0;
+    position: relative;
+    display: block;
+    transform-origin: top left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 24px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transform: translate(12px, 16px) scale(1);
+    -moz-transform: translate(12px, 16px) scale(1);
+    -ms-transform: translate(12px, 16px) scale(1);
+    transform: translate(12px, 16px) scale(1);
+    -webkit-transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, -webkit-transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, max-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    z-index: 1;
+    pointer-events: none;
+}
